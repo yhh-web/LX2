@@ -1,0 +1,25 @@
+*{margin: 0;padding: 0;border: 0;list-style: none;text-decoration: none;color: inherit;font-weight: normal;font-family: "微软雅黑";box-sizing: border-box;}
+body{min-width: 1440px;}
+img{vertical-align: middle;max-width: 100%;}
+/*通用标题*/
+.block h2.title{position: relative;font-size: 40px;color: #666666;text-align: center;padding-bottom: 15px;}
+.block h2.title.line:after{display: block;content: "";position: absolute;width: 65px;height: 3px;background: #4585f2;bottom: 5px;left: 50%;transform: translateX(-50%);}
+.block p.sub-title{font-size: 18px;color: #666666;text-align: center;}
+/*创新*/
+.innovate{width: 100%;height: auto;overflow: hidden;padding: 95px 0 130px 0;}
+.innovate .desc{color: #b4b4b4;font-size: 16px;text-align: center;padding: 35px 0 60px 0;line-height: 30px;}
+.innovate .list{width: 100%;height: auto;overflow: hidden}
+.innovate .list ul{width: 1200px;margin: 0 auto;height: auto;overflow: hidden;text-align: center;}
+.innovate .list ul li{display: inline-block;width: 570px;height: 250px;margin: 8px;background-color: #FFFFFF;border-radius: 10px;box-shadow: 0px 0px 25px rgba(210,210,210,.2);background-repeat: no-repeat;padding-left: 40px;transition: all .3s;}
+.innovate .list ul li:hover{transition: all .3s;transform: translateY(-5px);}
+.innovate .list ul li h4{font-weight: bold;color: #4585f2;font-size: 24px;text-align: left;padding: 15px 0 15px 0;}
+.innovate .list ul li p{color: #07df68;font-size: 14px;text-align: left;width: 60%;line-height: 25px;}
+.innovate .list ul li.one{background-image: url(../images/dgdc.jpg);background-position: center right 50px;}
+.innovate .list ul li.two{background-image: url(../images/dgnxlq.jpg);background-position: center right 50px;}
+.innovate .list ul li.three{background-image: url(../images/pbj.jpg);background-position: center right 50px;}
+.innovate .list ul li.four{background-image: url(../images/tyj.jpg);background-position: center right 50px;}
+.innovate .list ul li.five{background-image: url(../images/sdj.jpg);background-position: center right 50px;}
+.innovate .list ul li.six{background-image: url(../images/jsc.jpg);background-position: center right 50px;}
+.logo img{
+    width:100%
+}
